@@ -4,12 +4,14 @@
 #include "SharingCar.h"
 #include <Windows.h>
 #include <iostream>
+#include "overint.h"
 
 
 #pragma execution_character_set( "utf-8" )
 using namespace std;
 using namespace App;
 using namespace Sharing;
+using namespace overwrite;
 
 void time_rent(Application how)
 {
@@ -49,24 +51,70 @@ int main()
  
     SharingCar sharingL = sharingList[4];
     SharingCar sharingA = sharingArray[1];
-    time_rent(a);
+    //time_rent(a);
 
-    cout << endl << endl << endl;
+    cout << endl << endl;
     sharingL.Car_show(7);
-    cout << endl << endl << endl;
-    sharingL.app_show(2);
-
-    sharingL.Service_Dinamic();
-    cout << endl;
+    sharingL.overwork(413,7,'+');
+    cout << endl << endl;
     sharingL.Car_show(7);
-    cout << endl;
-    sharingL.Car_show(8);
-    cout << endl;
+    sharingL.overwork(2, 7, '-');
+    cout << endl << endl;
+    sharingL.Car_show(7);
+    sharingL.overwork(0,7, '*');
+    cout << endl << endl;
+    sharingL.Car_show(7);
+    sharingL.overwork(1, 7, '-=');
+    cout << endl << endl;
+    sharingL.Car_show(7);
+    sharingL.overwork(2, 7, '+=');
+    cout << endl << endl;
+    sharingL.Car_show(7);
+    sharingL.overwork(3, 7, '*=');
+    cout << endl << endl;
+    sharingL.Car_show(7);
+    sharingL.overwork(4, 7, '[]');
+    cout << endl << endl;
+    sharingL.Car_show(7);
 
+
+    //cout << endl << endl << endl;
+    //sharingL.app_show(2);
+
+    //sharingL.Service_Dinamic();
     //cout << endl;
-    //sharingA.Car_show(2);
-    delete[] sharingArray;
+    //sharingL.Car_show(7);
     //cout << endl;
+    //sharingL.Car_show(8);
     //cout << endl;
-    //sharingA.randomMemory();
+
+    //////cout << endl;
+    //////sharingA.Car_show(2);
+    //////delete[] sharingArray;
+    //////cout << endl;
+    //////cout << endl;
+    //////sharingA.randomMemory();
+    cout << "\n\n\n";
+    overint i = 231;
+    i.show();
+    i + 11230;
+    i.show();
+    i - 7;
+    i.show();
+    i * 6;
+    i.show();
+    i += 6;
+    i.show();
+    i -= 6;
+    i.show();
+    i *= 6;
+    i.show();
+    i + 112;
+    i[4];
+    i.show();
+
+    /*TempClase <float> k;
+    float mk=1;
+    k.mToKm(10000);
+    cout<<endl<< mk<<"km";*/
 }

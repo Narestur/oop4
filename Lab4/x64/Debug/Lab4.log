@@ -1,2 +1,10 @@
-﻿  SharingCar.cpp
+﻿  Lab4.cpp
+D:\Шото\OOP\Lab5\Lab4\Lab4.cpp(67,33): warning C4305: аргумент: усечение из "int" в "char"
+D:\Шото\OOP\Lab5\Lab4\Lab4.cpp(67,29): warning C4309: аргумент: усечение константного значения
+D:\Шото\OOP\Lab5\Lab4\Lab4.cpp(70,33): warning C4305: аргумент: усечение из "int" в "char"
+D:\Шото\OOP\Lab5\Lab4\Lab4.cpp(70,29): warning C4309: аргумент: усечение константного значения
+D:\Шото\OOP\Lab5\Lab4\Lab4.cpp(73,33): warning C4305: аргумент: усечение из "int" в "char"
+D:\Шото\OOP\Lab5\Lab4\Lab4.cpp(73,29): warning C4309: аргумент: усечение константного значения
+D:\Шото\OOP\Lab5\Lab4\Lab4.cpp(76,33): warning C4305: аргумент: усечение из "int" в "char"
+D:\Шото\OOP\Lab5\Lab4\Lab4.cpp(76,29): warning C4309: аргумент: усечение константного значения
   Lab4.vcxproj -> D:\Шото\OOP\Lab5\x64\Debug\Lab4.exe

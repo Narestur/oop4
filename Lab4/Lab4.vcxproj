@@ -134,6 +134,7 @@
     <ClCompile Include="Car_parameters.cpp" />
     <ClCompile Include="demoBlank.cpp" />
     <ClCompile Include="Lab4.cpp" />
+    <ClCompile Include="overint.cpp" />
     <ClCompile Include="SharingCar.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -143,6 +144,7 @@
     <ClInclude Include="Car_info.h" />
     <ClInclude Include="Car_parameters.h" />
     <ClInclude Include="demoBlank.h" />
+    <ClInclude Include="overint.h" />
     <ClInclude Include="SharingCar.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

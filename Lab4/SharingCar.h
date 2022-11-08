@@ -4,11 +4,13 @@
 #include "Car_info.h"
 #include "Car_parameters.h"
 #include <string>
+#include "overint.h"
 using namespace std;
 using namespace CarInfo;
 using namespace CarParameters;
 using namespace carR;
 using namespace App;
+using namespace overwrite;
 
 namespace Sharing
 {
@@ -20,7 +22,7 @@ namespace Sharing
             {
                 int year = 0;
                 int price = 0;
-                int CarRun = 0;
+                overint CarRun = 0;
                 string model = "0";
                 string color = "0";
                 Car *carType;
@@ -52,6 +54,6 @@ namespace Sharing
             void Service_Static();
             void Service_Dinamic();
         
-
+            void overwork(int num, int carnum, char oper);
     };
 }

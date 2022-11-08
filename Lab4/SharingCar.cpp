@@ -222,7 +222,7 @@ void SharingCar::Car_show()
     {
         cout << CarList[i].model << endl;
         cout << CarList[i].color << endl;
-        cout << CarList[i].CarRun << endl;
+        CarList[i].CarRun.show();
         cout << CarList[i].price << endl;
         cout << CarList[i].year << endl;
         cout << CarList[i].carType->Get_car_type() << endl;
@@ -236,7 +236,7 @@ void SharingCar::Car_show(int index)
 {
     cout << CarList[index].model << endl;
     cout << CarList[index].color << endl;
-    cout << CarList[index].CarRun << endl;
+    CarList[index].CarRun.show();
     cout << CarList[index].price << endl;
     cout << CarList[index].year << endl;
     cout << CarList[index].carType->Get_car_type() << endl;
@@ -369,3 +369,23 @@ void SharingCar::Service_Dinamic()
     }
 
 };
+
+void SharingCar::overwork(int num, int carnum, char oper)
+{
+    switch (oper) {
+    case '+':CarList[carnum].CarRun + num;
+        break;
+    case '-':CarList[carnum].CarRun - num;
+        break;
+    case '*': CarList[carnum].CarRun * num;
+        break;
+    case '+=': CarList[carnum].CarRun += num;
+        break;
+    case '-=': CarList[carnum].CarRun -= num;
+        break;
+    case '*=': CarList[carnum].CarRun *= num;
+        break;
+    case '[]': CarList[carnum].CarRun[num];
+        break;
+    }
+}
